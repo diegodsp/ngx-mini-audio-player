@@ -1,6 +1,6 @@
 Mini Audio Player
 =================
-This is a mini audio player for Angular.
+This is a mini audio player for Angular (not js).
 
 Simple file [source code](mini-audio-player.ts).
 
@@ -10,7 +10,7 @@ Simple file [source code](mini-audio-player.ts).
 
 ## Example of usage
 ```html
-<mini-audio-player [url]="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3"></mini-audio-player>
+<ngx-mini-audio-player [url]="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3"></ngx-mini-audio-player>
 ```
 
 ![Sample](sample-mini-audio-player.png)
