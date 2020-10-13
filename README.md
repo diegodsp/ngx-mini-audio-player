@@ -2,7 +2,7 @@ Mini Audio Player
 =================
 This is a mini audio player for Angular (not js).
 
-Simple file [source code](mini-audio-player.ts).
+Simple file [source code](ngx-mini-audio-player.ts).
 
 ## Dependencies
 - [Angular 8+](https://angular.io/);
