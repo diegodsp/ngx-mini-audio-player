@@ -11,6 +11,8 @@ This is a mini audio player for Angular.
 <mini-audio-player [url]="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3"></mini-audio-player>
 ```
 
+![Sample](sample-mini-audio-player.png)
+
 ## Upcoming changes planned:
 - Create better documentation;
 - Create a sample and demo project;
