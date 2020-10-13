@@ -5,8 +5,8 @@ This is a mini audio player for Angular.
 Simple file [source code](mini-audio-player.ts).
 
 ## Dependencies
-- Angular 8+;
-- Fontawesome or Forawesome.
+- [Angular 8+](https://angular.io/);
+- [Fontawesome](https://fontawesome.com/) or [Fortawesome](https://fortawesome.com/).
 
 ## Example of usage
 ```html
