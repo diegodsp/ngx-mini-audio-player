@@ -1,3 +1,8 @@
+/**
+ * (c) 2010-2020 Diego Pereira. https://github.com/diegodsp/ngx-mini-audio-player/
+ * License: MIT
+ */
+
 import { Component, Input, OnDestroy, OnInit } from '@angular/core';
 
 @Component({
