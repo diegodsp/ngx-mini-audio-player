@@ -1,7 +1,7 @@
 import { Component, Input, OnDestroy, OnInit } from '@angular/core';
 
 @Component({
-    selector: 'mini-audio-player',
+    selector: 'ngx-mini-audio-player',
     template: '<i class="fa" [class.fa-download]="buffering" [class.fa-play]="!buffering && !playing" [class.fa-pause]="!buffering && playing" (click)="onClick()"></i>'
 })
 export class MiniAudioPlayerComponent implements OnInit, OnDestroy {
