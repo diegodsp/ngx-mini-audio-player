@@ -4,6 +4,7 @@
  */
 
 import { Component, Input, OnDestroy, OnInit } from '@angular/core';
+import { ActivatedRoute } from '@angular/router';
 
 @Component({
     selector: 'ngx-mini-audio-player',
@@ -15,12 +16,15 @@ export class MiniAudioPlayerComponent implements OnInit, OnDestroy {
     buffering = false;
     @Input() url: string;
 
-    constructor() { }
+    constructor(private route: ActivatedRoute) { }
 
     /**
-     * Handle the buffering events.
+     * Handle events.
      */
     ngOnInit(): void {
+        this.route.queryParams.subscribe(params => {
+            this.ngOnDestroy();
+        });
         this.player.onloadstart = () => {
             this.buffering = true;
         };
@@ -33,6 +37,8 @@ export class MiniAudioPlayerComponent implements OnInit, OnDestroy {
      * Detect change pages or recreate component.
      */
     ngOnDestroy(): void {
+        this.buffering = false;
+        this.playing = false;
         this.player?.pause();
     }
 
