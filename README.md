@@ -15,6 +15,8 @@ Simple file [source code](ngx-mini-audio-player.ts).
 
 ![Sample](sample-mini-audio-player.png)
 
+![The player is only icon](E9E9278D-B0C0-4A27-B972-CB66E02FF85B.jpeg)
+
 ## Upcoming changes planned:
 - Create better documentation;
 - Create a sample and demo project;
